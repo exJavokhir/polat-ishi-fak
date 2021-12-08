@@ -10,6 +10,13 @@
   header .header.header-search .header-input {
     margin-right: 0;
     padding: 12px;
+    width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 /*# sourceMappingURL=main_res.css.map */
