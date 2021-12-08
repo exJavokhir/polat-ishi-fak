@@ -1,0 +1,15 @@
+@media screen and (max-width: 1150px) {
+  header .header {
+    padding: 20px 0;
+  }
+  header .header .header-links a {
+    font-weight: 500;
+    margin: 0 10px;
+    font-size: 15px;
+  }
+  header .header.header-search .header-input {
+    margin-right: 0;
+    padding: 12px;
+  }
+}
+/*# sourceMappingURL=main_res.css.map */
