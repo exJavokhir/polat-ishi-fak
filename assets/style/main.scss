@@ -147,7 +147,7 @@ body {
 }
 
 .inner-page{
-    margin-top: 50px;
+    margin-top: 130px;
 }
 
 
@@ -249,41 +249,39 @@ header {
 
 // result game
 
-.result-game {
-    .seria-table {
-        background-color: #4692645a;
-        border-radius: 10px;
-        margin-bottom: 20px;
+.seria-table {
+    background-color: #4692645a;
+    border-radius: 10px;
+    margin-bottom: 20px;
 
-        .team-name {
+    .team-name {
+        width: 100%;
+        max-width: 191px;
+        background-color: $main_color;
+        padding: 14px 20px;
+        position: relative;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+
+        &::before {
+            position: absolute;
+            content: '';
+            right: -29px;
+            bottom: 0;
+            width: 30px;
+            height: 100%;
+            background-image: url(../img/button_right.svg);
+            background-repeat: no-repeat;
+
+        }
+
+        p {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 22px;
+            color: #FFFFFF;
             width: 100%;
-            max-width: 191px;
-            background-color: $main_color;
-            padding: 14px 20px;
-            position: relative;
-            border-bottom-left-radius: 10px;
-            border-top-left-radius: 10px;
-
-            &::before {
-                position: absolute;
-                content: '';
-                right: -29px;
-                bottom: 0;
-                width: 30px;
-                height: 100%;
-                background-image: url(../img/button_right.svg);
-                background-repeat: no-repeat;
-
-            }
-
-            p {
-                font-style: normal;
-                font-weight: bold;
-                font-size: 16px;
-                line-height: 22px;
-                color: #FFFFFF;
-                width: 100%;
-            }
         }
     }
 }
@@ -299,7 +297,10 @@ header {
         justify-content: space-between;
         margin-bottom: 20px;
         overflow-y: scroll;
-        padding: 0 0 25px  0  ;
+        padding: 0 0 25px  0;
+        &::-webkit-scrollbar{
+            display: none;
+        }
     }
 
     .result-card {
@@ -379,6 +380,9 @@ header {
     border-radius: 10px;
     padding: 20px;
     overflow-x: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }
 
     .banner-card {
         display: flex;

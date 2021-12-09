@@ -2,6 +2,9 @@
                 //  HEADER qismi uchun 
 
 @media screen and (max-width: 1150px) {
+    .inner-page{
+        margin-top: 40px;
+    }
     header{
         position: static;
         .header{
@@ -190,7 +193,7 @@
           // advertising section
 
 @media screen and (max-width: 1000px) {
-    .advertising-section{
+    .advertising-section {
         .advertising-cards-section{
             .big-card-section{
                 .advertising-card-text{

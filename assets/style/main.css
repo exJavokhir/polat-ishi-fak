@@ -128,7 +128,7 @@ body.active header .header .header-search button img {
 }
 
 .inner-page {
-  margin-top: 50px;
+  margin-top: 130px;
 }
 
 .form-select {
@@ -225,13 +225,13 @@ header .header.header-search .header-select .form-select {
   padding: 14px;
 }
 
-.result-game .seria-table {
+.seria-table {
   background-color: #4692645a;
   border-radius: 10px;
   margin-bottom: 20px;
 }
 
-.result-game .seria-table .team-name {
+.seria-table .team-name {
   width: 100%;
   max-width: 191px;
   background-color: #469264;
@@ -241,7 +241,7 @@ header .header.header-search .header-select .form-select {
   border-top-left-radius: 10px;
 }
 
-.result-game .seria-table .team-name::before {
+.seria-table .team-name::before {
   position: absolute;
   content: '';
   right: -29px;
@@ -252,7 +252,7 @@ header .header.header-search .header-select .form-select {
   background-repeat: no-repeat;
 }
 
-.result-game .seria-table .team-name p {
+.seria-table .team-name p {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -275,6 +275,10 @@ header .header.header-search .header-select .form-select {
   margin-bottom: 20px;
   overflow-y: scroll;
   padding: 0 0 25px  0;
+}
+
+.result-cards-section .result-wrapper::-webkit-scrollbar {
+  display: none;
 }
 
 .result-cards-section .result-card {
@@ -369,6 +373,10 @@ header .header.header-search .header-select .form-select {
   border-radius: 10px;
   padding: 20px;
   overflow-x: scroll;
+}
+
+.advertising-banner-section::-webkit-scrollbar {
+  display: none;
 }
 
 .advertising-banner-section .banner-card {

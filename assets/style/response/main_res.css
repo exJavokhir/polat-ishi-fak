@@ -1,4 +1,7 @@
 @media screen and (max-width: 1150px) {
+  .inner-page {
+    margin-top: 40px;
+  }
   header {
     position: static;
   }
