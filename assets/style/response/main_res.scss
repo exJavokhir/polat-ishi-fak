@@ -1,5 +1,9 @@
+
+                //  HEADER qismi uchun 
+
 @media screen and (max-width: 1150px) {
     header{
+        position: static;
         .header{
             padding: 20px 0;
             .header-links{
@@ -12,14 +16,680 @@
 
             &.header-search{
                 .header-input{
-                    margin-right: 0;
                     padding: 12px;
-                    width: 40%;
-                    display: flex;
-                    justify-content: space-between;
+                    margin-right: 0;
+                }
+                button{
+                    margin-right: 0;
                 }
             }
 
+        }
+    }
+}
+@media screen and (max-width: 900px) {
+    header{
+        .header{
+            padding: 15px 0;
+            .header-links{
+                a{
+                    font-weight: 400;
+                font-size: 13px;
+                }
+            }
+
+            &.header-search{
+                .logo-link{
+                    width: 100px;
+                    .logo-img{
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .header-input{
+                    padding: 17px;
+                    height: 0;
+                    width: 100px;
+                    margin-right: 0;
+                }
+                button{
+                    width: 40px;
+                    height: 40px;
+                }
+
+                .header-select{
+                    .form-select{
+                        height: 34px;
+                        padding: 10px;
+                    }
+                }
+                
+            }
+
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    header{
+        .header{
+            padding: 15px 0;
+            .header-links{
+                display: none;
+            }
+
+            &.header-search{
+                display: flex;
+                justify-content: flex-end;
+                position:relative;
+                .logo-link{
+                    position: absolute;
+                    left: 0;
+                    .logo-img{
+                        width: 100%;
+                        object-fit: contain;
+                    }
+                }
+                .header-input{
+                    padding: 20px;
+                    height: 0;
+                    width: 150px;
+                    margin-right: 20px;
+                }
+                button{
+                    width: 50px;
+                    height: 50px;
+                    margin-right: 20px;
+
+                }
+
+                .header-select{
+                    .form-select{
+                        height: 40px;
+                        padding: 10px;
+                    }
+                }
+                
+            }
+
+        }
+    }
+}
+@media screen and (max-width: 650px) {
+    header{
+        .header{
+            .header-links{
+                display: none;
+            }
+
+            &.header-search{
+              
+                .header-input{
+                    padding: 15px;     
+                    width: 100px;               
+                }
+                button{
+                    width: 30px;
+                    height: 30px;
+                    img{
+                    width: 20px;
+
+                    }
+                }
+
+                .header-select{
+                    .form-select{
+                        padding: 5px;
+                    }
+                }
+                
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    header{
+        .header{
+            .header-links{
+                display: none;
+            }
+
+            &.header-search{
+                display: flex;
+                justify-content: space-between;
+                .logo-link{
+                    position: static;
+                }
+              
+                .header-input{
+                    display: none;             
+                }
+                button{
+                    width: 40px;
+                    height: 40px;
+                    margin: 0;
+                    img{
+                        width: 30px;
+                    }
+                }
+
+                .header-select{
+                    display: none;
+                }
+                
+            }
+
+        }
+    }
+}
+            /////////////////////////////////////////////////
+
+
+
+          // advertising section
+
+@media screen and (max-width: 1000px) {
+    .advertising-section{
+        .advertising-cards-section{
+            .big-card-section{
+                .advertising-card-text{
+                    bottom: 60px;
+                    h2{
+                        font-size: 21px;
+                        line-height: 30px;
+                    }
+                    span{
+                        font-size: 16px;
+                    }
+                }
+            }
+
+            .advertising-card{
+                .advertising-card-text{
+                    bottom: 60px;
+                    h3{
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// news card section
+
+
+
+@media screen and (max-width:1000px) {
+    .news-cards-section{
+        .news-card{
+            width: auto;
+            h3{
+                font-size: 17px;
+                line-height: 20px;
+                font-weight: 500;
+            }
+            p,span{
+                font-size: 12px;
+            }
+        }
+    }
+    
+    
+    // social
+    
+    .social{
+        .social-text{
+            p{
+                font-size: 24px;
+            }
+        }
+    
+        .social-img{
+            img{
+                width: 30px;
+            }
+        }
+    }
+}
+
+// footer
+
+
+@media screen and (max-width:1000px) {
+    footer {
+        .footer {
+            .footer-copyright {
+                font-weight: 600;
+                font-size: 20px;
+                padding: 20px 0;
+            }
+    
+            .footer-links {
+                width: 100%;
+                padding: 25px 0;
+                margin-bottom: 0;
+                .footer-logo {
+                    width: 20%;
+                }
+                .footer-link-section {
+                    width: 55%;
+                    a {
+                        margin-bottom: 15px;
+                        font-weight: 500;
+                        font-size: 15px;
+                        line-height: 20px;
+                    }
+                }
+    
+                .footer-imgs {
+                    width: 30%;
+                    img {
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//        telefonlar uchun moslashuvchanlik yozish
+
+@media  screen and (max-width: 768px) {
+    .advertising-section{
+        .card-table{
+            display: none;
+        }
+        .advertising-cards-section{
+            width: 100%;
+            .big-card-section{
+                width: 100%;
+                .advertising-card-text{
+                    bottom: 20px;
+                    h2{
+                        font-size: 19px;
+                        line-height: 25px;
+                    }
+                }
+            }
+
+            .advertising-card{
+                .advertising-card-text{
+                    bottom: 10px;
+                    left: 10px;
+                    h3{
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .your-advertising{
+        width: 100%;
+    }
+
+    .news{
+        .new-card-table{
+            display: none;
+        }
+
+        .last-news-section{
+            width: 100%;
+        }
+    }
+
+    .your-add{
+        .your-advertising{
+            width: 100%;
+            &:nth-child(1){
+                display: none;
+            }
+        }
+    }
+
+    .all-news{
+        margin-bottom: 30px;
+        .add-section{
+            display: none;
+        }
+        .cards-section{
+            width: 100%;
+        }
+    }
+
+    .social{
+        padding: 20px 20px;
+        margin-bottom: 40px;
+        .social-text{
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+    footer {
+        .footer {
+            .footer-copyright {
+                font-weight: 400;
+                font-size: 18px;
+                padding: 10px 0;
+            }
+    
+            .footer-links {
+                display: flex;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                .footer-logo {
+                    width: 30%;
+                }
+                .footer-link-section {
+                    width: 55%;
+                    a {
+                        margin-bottom: 15px;
+                        font-weight: 500;
+                        font-size: 15px;
+                        line-height: 20px;
+                    }
+                }
+    
+                .footer-imgs {
+                    margin-top: 10px;
+                    width: 100%;
+                    img {
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// yana telefonlar ga moslash polat jalla qotto 
+
+
+@media  screen and (max-width: 600px) {
+    .advertising-section{
+        .advertising-cards-section{
+            width: 100%;
+            .big-card-section{
+                width: 100%;
+                .advertising-card-text{
+                    bottom: 10px;
+                    left: 10px;
+                    h2{
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                    span{
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            .advertising-card{
+                .advertising-card-text{
+                    bottom: 10px;
+                    left: 10px;
+                    h3{
+                        font-size: 13px;
+                        line-height: 18px;
+                    }
+                    p{
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+
+    .your-advertising{
+        width: 100%;
+        padding: 50px 0;
+        margin-bottom: 30px;
+    }
+
+    .news{
+        .last-news{
+            padding: 5px 0;
+            P{
+                font-size: 20px;
+            }
+        }
+        .last-news-section{
+            width: 100%;
+            .news-cards-section{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .news-card{
+                    width: 47%;
+                    box-sizing: border-box;
+                }
+            }
+            .show-more{
+                padding: 10px 0;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .last-news{
+        padding: 10px 0;
+        P{
+            font-size: 18px;
+        }
+    }
+
+    .your-add{
+        .your-advertising{
+            width: 100%;
+            &:nth-child(1){
+                display: none;
+            }
+        }
+    }
+
+    .all-news{
+        margin-bottom: 30px;
+        .add-section{
+            display: none;
+        }
+        .cards-section{
+            width: 100%;
+            .news-cards-section{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .news-card{
+                    width: 47%;
+                    box-sizing: border-box;
+                }
+            }
+            .show-more{
+                padding: 10px 0;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .social{
+        padding: 20px 20px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        .social-text{
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+    footer {
+        .footer {
+            .footer-copyright {
+                font-weight: 400;
+                font-size: 18px;
+                padding: 10px 0;
+            }
+    
+            .footer-links {
+                display: flex;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                .footer-logo {
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+                .footer-link-section {
+                    width: 100%;
+                    a {
+                        margin-bottom: 15px;
+                        font-weight: 500;
+                        font-size: 15px;
+                        line-height: 20px;
+                    }
+                }
+    
+                .footer-imgs {
+                    width: 100%;
+                    img {
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// final response for mobile phones
+
+
+
+@media  screen and (max-width: 450px) {
+    .advertising-section{
+        .advertising-cards-section{
+            display: flex;
+            flex-wrap: wrap;
+            .big-card-section{
+                width: 100%;
+                height: 215px;
+                img{
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .advertising-card{
+                width: 100%;
+            }
+        }
+    }
+
+    .news{
+        .last-news-section{
+            .news-cards-section{
+                .news-card{
+                    width: 100%;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+
+   
+    .all-news{
+        .cards-section{
+            .news-cards-section{
+                .news-card{
+                    width: 100%;
+                    max-width: 100%;
+                }
+            }
+            .show-more{
+                padding: 10px 0;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .social{
+        padding: 10px;
+        margin-bottom: 40px;
+        .social-img{
+            img{
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+    footer {
+        .footer {
+            .footer-copyright{
+                font-size: 12px;
+            }
+            .footer-links {
+                display: flex;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                .footer-logo {
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+                .footer-link-section {
+                    width: 100%;
+                    a {
+                        margin-bottom: 10px;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 20px;
+                    }
+                }
+    
+                .footer-imgs {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+
+                    img {
+                        width: 80px;
+                        height: 80px;
+                    }
+                }
+            }
         }
     }
 }
